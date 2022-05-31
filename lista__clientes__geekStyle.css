@@ -1,0 +1,44 @@
+
+.header__list-nav {
+    display:flex; 
+    justify-content: flex-end;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.clientes__container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: beige;
+    margin: 0 auto;
+    border-radius: 6px;
+    width: 600px;
+    height: 400px
+}
+
+
+.table__full{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.modal__container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.modal{
+    display: block;
+    align-items: center;
+    background-color: blue;
+    border-radius: 8px;
+}
+.modal:hover{
+    transition: 1s;
+    transform: scale(1.3);
+}

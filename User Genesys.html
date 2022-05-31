@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width initial-scale=1.0"/> 
+ <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+ <link href="./Style Geek/User Genesys .css" rel="stylesheet" >
+ 
+ <title>Teblero de Control | Administrador </title>
+
+</head>
+<body>
+<header>
+ <div class="caja">
+   <h1><img
+    src="../Challenge e-commerce geek/Img/LogoAlurageek.svg"
+    alt="Tablero"
+    class="Tablero_logo"
+  /></h1> 
+  <nav>
+    <ul class="header__list-nav">
+      <li class="header__link"><a href="User Genesys.html">Tablero de Control</a></li>
+      <li class="header__link"><a href="./index.html">Productos</a></li>
+      <li class="header__link" > <a href="#">Clientes</a></li>
+    </ul>
+    <script src="INICIO USUARIO.js"></script>
+    <input onclick="cerrar()" type=button value="CERRAR">
+    <!--input onclick="cancelar()" type=button value="CANCELAR"-->
+  </nav>
+</div>
+</header>
+<main class="registro__productos">
+    <section class="card__productos">
+      <h1 class="card__title">Registrar un producto</h1>
+      <form action="#" class="formulario">
+        <div class="input-container">
+          <input
+            name="nombre"
+            id="nombre"
+            class="input"
+            type="text"
+            placeholder="nombre"
+          />
+          <label class="input-label" for="nombre"></label>
+          <span class="input-menssage-error"></span>
+        </div>
+        <div class="input-container register__price-container">
+          <input
+            name="precio"
+            id="precio"
+            class="input"
+            type="text"
+            placeholder="Precio"
+          />
+          <label class="input-label" for="precio"></label>
+          <span class="input-menssage-error"></span>
+        </div>
+        <div
+          class="
+            textarea-container textarea-container--invalido
+            register_description-container
+          "
+        >
+          <textarea
+            class="textarea register_description"
+            name="description"
+            id="description"
+            placeholder="Descripcion"
+          ></textarea>
+          <label class="textarea-label" for="description"></label>
+          <span class="textarea-menssage-error"></span>
+        </div>
+        <a href="./registro_completado.html" class="button"
+          >Registrar producto</a
+        >
+      </form>
+    
+      <form>Subir imagen:<input name="archivo" type="file" accept=" .jpg, .jpeg, .png," required><input type="submit" name="subir" value="subir"></form>
+    </section>
+    
+    
+    <section>
+
+    </section>
+  </main>
+
+</body>
+
+
+</html>

@@ -1,0 +1,193 @@
+
+
+body{
+/**background-image:url(../Fotográfia/brain-exe-error-error.gif);**/
+background-size:cover;
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+
+box-sizing: border-box; 
+font-family:'raleway';
+font-weight:700;
+margin: 0;
+}
+.cabecera .cabecera-contenedor  {
+    display: flex;
+    justify-content: space-around;
+    width:85%;
+    
+}
+.busqueda_campo:focus{
+        outline: none;
+}
+
+.menu__lista{
+    display:flex; 
+    list-style:none;
+
+}
+
+.banner__titulo {
+    position: relative;
+    transform:translate(280px,-200px);
+    color:white;
+}
+
+.banner__ofertas{
+    position: relative;
+    transform:translate(280px,-180px);
+    color:white;
+}
+
+.banner__ofertas__boton{
+    position: relative;
+    transform:translate(280px,-180px);
+    color:white;
+    background-color: blue;
+}
+/*seccion de los productos star wars*/
+
+
+.Catalogo_titulo{
+    display: flex;
+    margin-inline-start: 12rem;
+}
+
+.VerCatalogo {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 12rem;
+    border-bottom-style: none;
+}
+
+
+
+.star_wars {
+    /*background: #e5e5e5;*/
+    display: flex;
+    justify-content: center;
+}
+
+.card{ 
+   
+    width: 160px;
+    height: 160px;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/*botones diseño*/
+/* .starwar__boton {
+       
+    background: #8d0606;
+    border-radius: 10px;
+    border:none
+    color:#fdfdfd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}*/
+
+
+
+/*seccion de productos consolas*/
+
+.consolas{
+    /*background: #e5e5e5;*/
+    display: flex;
+    justify-content: center;
+   
+}
+
+/*.consola_producto{ 
+   
+    width: 100px;
+    height: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}*/
+/*.consola__boton{
+    background: #8d0606;
+    border-radius: 20px;
+    border:none;
+    color:#fdfdfd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}*/
+
+
+
+
+/*diseño diversos*/
+.diversos {
+    /*background: #e5e5e5;*/
+    display: flex;
+    justify-content: center;
+}
+
+/*.diverso_producto{
+    width: 100px;
+    height: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}*/
+
+/*.diverso__boton{
+    background: #8d0606;
+    border-radius: 20px;
+    border:none;
+    color:#fdfdfd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}*/
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna-rojo .columa-verde .columna-azul{
+    
+    float:left;
+    margin-top: 20px;
+    width:33%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.sinborde{
+ 
+ border:0;  
+ text-decoration: underline;
+
+}
+
+.footer{
+    width: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

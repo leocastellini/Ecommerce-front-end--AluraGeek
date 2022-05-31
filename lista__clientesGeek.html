@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurageek | Lista clientes</title>
+
+    <link rel="stylesheet" href="lista__clientes__geekStyle.css">
+</head>
+<body>
+    <header class="header-container">
+        <img
+          src="../Challenge e-commerce/Img/LogoAlurageek.svg"
+          alt="Alurageek"
+          class="header__logo"
+        />
+        <nav>
+          <ul class="header__list-nav">
+            <li class="header__link"><a href="#">Dashboard</a></li>
+            <li class="header__link"><a href="#">Productos</a></li>
+            <li class="header__link"><a href="#">Clientes</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main class="clientes__container">
+        <table class="table__full">
+          <thead>
+            <tr>
+            
+              <th class="table column">Nombre</th>
+              <th class="table column">Email</th>
+              <th class="table column table align right">
+            
+                <a
+                  href="./registrar_clienteGeek.html"
+                  class="simple-button"
+                  >Nuevo Cliente</a>
+              </th>
+            </tr>
+          </thead>
+          <tbody data-table>
+            
+          </tbody>
+        </table>
+       
+        <div class="modal__container">
+      
+          <article class="modal">
+            <h2 class="modal__title">Eliminar</h2>
+            <button class="modal__close">X</button>
+            <p class="modal__text">¿Deseas continuar?</p>
+            
+            <div class="modal__button-container">
+              <button class="modal__button confirm">
+                Eliminar
+              </button>
+              <button class="modal__button">No eliminar</button>
+            </div>
+          
+          </article>
+      
+        </div>
+      
+      </main>
+    <script src="../Challenge e-commerce/Json Server Ejemplo/client_servicesGeek.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+body{
+    width:100%;
+    height:100%;
+    background-color: beige;
+
+} 
+.header_contenedor{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+.contenido_general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formulario{
+ margin-top:auto; 
+ background-color:lightblue;
+ 
+
+}
+
+.input-message-error{
+    display: none;
+}
+
+
+
+
+
